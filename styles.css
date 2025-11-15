@@ -136,6 +136,7 @@ body::after{ display:none; }
     padding:8px 12px;
     background:transparent;
     border:1px solid rgba(230,238,246,0.08);
+    background-color: #348a02;
     color:var(--text);
     text-decoration:none;
     font-weight:600;
