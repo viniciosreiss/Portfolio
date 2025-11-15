@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VinicData</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>VinicData</h1>
+        <p class="subtitle_work">Analista de dados [ FP&A ]</p>
+        <p class="subtitle">Projetos e Modelos Financeiros</p>
+    </header>
+
+    <main class="container">
+        <section id="projects" class="projects" aria-label="Projetos">
+            <!-- cards serão inseridos por js/main.js -->
+        </section>
+    </main>
+
+    <!-- novo rodapé -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-links">
+                <a class="footer-link" href="https://github.com/seu-usuario" target="_blank" rel="noopener">GitHub</a>
+                <a class="footer-link" href="https://www.linkedin.com/in/seu-usuario" target="_blank" rel="noopener">LinkedIn</a>
+                <a class="footer-link" href="mailto:seu@email.com">E-mail</a>
+            </div>
+            <div class="copyright">
+                © <span id="year"></span> VinicData — Todos os direitos reservados
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // atualiza o ano automaticamente
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Project Repository 1",
+        "url": "https://github.com/username/project-repo-1",
+        "description": "Description of Project Repository 1"
+    },
+    {
+        "name": "Project Repository 2",
+        "url": "https://github.com/username/project-repo-2",
+        "description": "Description of Project Repository 2"
+    },
+    {
+        "name": "Project Repository 3",
+        "url": "https://github.com/username/project-repo-3",
+        "description": "Description of Project Repository 3"
+    },
+    {
+        "name": "Project Repository 4",
+        "url": "https://github.com/username/project-repo-4",
+        "description": "Description of Project Repository 4"
+    }
+]
