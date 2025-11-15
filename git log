@@ -1,0 +1,23 @@
+[33mcommit b19546c4fc38ebb035582dc87ae16048b758f150[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: viniciosreiss <viniciosreiis@outlook.com>
+Date:   Sat Nov 15 13:02:45 2025 -0300
+
+    Atualiza layout: add About, footer e limpeza do JS
+
+[33mcommit 3835cd31996c1d98fe6e890fdc24dd4670f095fa[m
+Author: viniciosreiss <viniciosreiis@outlook.com>
+Date:   Sat Nov 15 12:53:29 2025 -0300
+
+    Remove antigo script de carrossel e limpar main.js
+
+[33mcommit 74d1c027ebca6555da59f213041d176e540a7287[m
+Author: viniciosreiss <viniciosreiis@outlook.com>
+Date:   Sat Nov 15 12:46:27 2025 -0300
+
+    Rename carousel.js to render-cards.js
+
+[33mcommit 624a30ce10a65dae8681c68c1f6b3bc8dfacd01d[m
+Author: viniciosreiss <viniciosreiis@outlook.com>
+Date:   Sat Nov 15 12:28:48 2025 -0300
+
+    Primeiro commit
