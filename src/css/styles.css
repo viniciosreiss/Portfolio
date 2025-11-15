@@ -41,7 +41,8 @@ body{
     width:100%;
     max-width:920px;
     display:flex;
-    justify-content:center;
+    flex-direction:column; /* empilha os blocos verticalmente */
+    justify-content:flex-start;
     align-items:center;
     flex:1 0 auto; /* permite que o main expanda e empurre o footer para o fim da página */
 }
@@ -169,4 +170,38 @@ body{
 @media (max-width:420px){
     .site-footer{ padding:12px; }
     .footer-link{ padding:7px 10px; font-size:0.95rem; }
+}
+
+/* About (bloco abaixo dos projetos) */
+.about-section{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+}
+.about-inner{
+    width:100%;
+    max-width:820px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+    border-radius:10px;
+    padding:18px;
+    box-shadow:0 6px 18px rgba(2,6,23,0.4);
+    border:1px solid rgba(255,255,255,0.03);
+}
+.about-inner h2{
+    margin:0 0 8px 0;
+    font-size:1.25rem;
+    letter-spacing:0.3px;
+}
+.about-text{
+    color:rgba(230,238,246,0.9);
+    line-height:1.5;
+    font-size:0.98rem;
+}
+
+/* mobile */
+@media (max-width:760px){
+    .about-inner{ padding:14px; }
+    .about-inner h2{ font-size:1.05rem; }
+    .about-text{ font-size:0.95rem; }
 }

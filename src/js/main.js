@@ -1,37 +1,4 @@
-// This file contains the main JavaScript code to initialize the carousel and handle user interactions.
-
-document.addEventListener('DOMContentLoaded', function() {
-    const carousel = document.querySelector('.carousel');
-    const slides = carousel.querySelectorAll('.carousel-slide');
-    const nextButton = carousel.querySelector('.carousel-next');
-    const prevButton = carousel.querySelector('.carousel-prev');
-    let currentSlide = 0;
-
-    function showSlide(index) {
-        slides.forEach((slide, i) => {
-            slide.style.display = (i === index) ? 'block' : 'none';
-        });
-    }
-
-    function nextSlide() {
-        currentSlide = (currentSlide + 1) % slides.length;
-        showSlide(currentSlide);
-    }
-
-    function prevSlide() {
-        currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-        showSlide(currentSlide);
-    }
-
-    nextButton.addEventListener('click', nextSlide);
-    prevButton.addEventListener('click', prevSlide);
-
-    showSlide(currentSlide);
-});
-
-/*
-  main.js — renderiza lista de projetos como cards (sem referências ao carrossel)
-*/
+// main.js — renderiza lista de projetos como cards (sem referências ao carrossel)
 
 const FALLBACK_IMAGE = 'https://via.placeholder.com/820x450?text=Sem+imagem';
 
