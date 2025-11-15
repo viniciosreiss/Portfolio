@@ -6,7 +6,7 @@ const FALLBACK_IMAGE = 'https://via.placeholder.com/820x450?text=Sem+imagem';
 const projects = [
     {
         title: "Planilha Financeira - 2025",
-        description: "Organize suas receitas e despesas com esta planilha prática.",
+        description: "Cansou de perder o controle das suas finanças? Experimente nossa Planilha Financeira 2025! Com ela, você pode monitorar suas receitas, despesas e economias de forma simples e eficiente. Organize seu orçamento mensal, acompanhe seus gastos diários e visualize gráficos que ajudam a entender melhor sua saúde financeira. Ideal para quem busca praticidade e controle total sobre suas finanças pessoais. Baixe agora e comece a transformar sua vida financeira!",
         image: "src/assets/excel_1.png",
         repo: "https://github.com/viniciosreiss/Portfolio-Data-Analystics",
         demo: ""
