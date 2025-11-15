@@ -7,7 +7,7 @@ const projects = [
     {
         title: "Planilha Financeira - 2025",
         description: "Organize suas receitas e despesas com esta planilha prática.",
-        image: "assets/excel_1.png",
+        image: "src/assets/excel_1.png",
         repo: "https://github.com/viniciosreiss/Portfolio-Data-Analystics",
         demo: ""
     },
@@ -16,18 +16,18 @@ const projects = [
 
 // bloco "programas" (ícones de software como Excel, Power BI)
 const programs = [
-    { name: 'Excel', logo: 'assets/programs/excel.png' },
-    { name: 'Power BI', logo: 'assets/programs/power_bi.png' },
-    { name: 'Power Auto', logo: 'assets/programs/power_auto.png' },// opcional
-    { name: 'Power Apps', logo: 'assets/programs/power_apps.png' }// opcional
+    { name: 'Excel', logo: 'src/assets/programs/excel.png' },
+    { name: 'Power BI', logo: 'src/assets/programs/power_bi.png' },
+    { name: 'Power Auto', logo: 'src/assets/programs/power_auto.png' },// opcional
+    { name: 'Power Apps', logo: 'src/assets/programs/power_apps.png' }// opcional
 ];
 
 // exemplo de tecnologias (substitua logos em src/assets ou URLs externas)
 const techStack = [
     // usando arquivo local colocado em src/assets/logo-python.png
     { name: 'Python', logo: 'https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png' },
-    { name: 'SQL', logo: 'assets/stack/sql.png' },
-    { name: 'VBA', logo: 'assets/stack/vba.png' },
+    { name: 'SQL', logo: 'src/assets/stack/sql.png' },
+    { name: 'VBA', logo: 'src/assets/stack/vba.png' },
 
     // { name: 'Excel', logo: 'assets/logo-excel.png' },
     // { name: 'Power BI', logo: 'assets/logo-powerbi.png' },
